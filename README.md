@@ -21,7 +21,9 @@ This app fetches live flight departure data based on ICAO airport codes, identif
 
 | Input ICAO Code | Sample Route Insights |
 |------------------|------------------------|
-| ![Input](https://i.imgur.com/8ZoM3Pp.png) | ![Chart](https://i.imgur.com/YV80A1n.png) |
+| !<img width="1916" height="837" alt="image" src="https://github.com/user-attachments/assets/5d1c91ef-70ea-4f39-86e1-8cbcfa167c9c" />
+ | !<img width="1557" height="832" alt="image" src="https://github.com/user-attachments/assets/6f151ded-b613-4e02-a96b-37a83c502926" />
+|
 
 ---
 
@@ -42,3 +44,17 @@ This app fetches live flight departure data based on ICAO airport codes, identif
 ```bash
 git clone https://github.com/your-username/airline-demand-app.git
 cd airline-demand-app
+
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+### 3. Run the App
+
+```bash
+streamlit run app.py
+
+The app will open at http://localhost:8501
+
